@@ -33,9 +33,9 @@ function myFind(testArr, target){
     return undefined
 }
 
-function myFilter(testArr, excluder) {
-    let objValues = Object.values(testArr)
-    return objValues.filter(num => num > 10)
+function myFilter(testArr, val) {
+  let objValues = Object.values(testArr);
+  return objValues.filter((num) => num > 10);
 }
 
 function mySize(testArr) {
